@@ -1,0 +1,40 @@
+#pixel-board{
+    display: table;
+    border-spacing: 1px;
+    background-color: black;
+    border: 1px solid black;
+  }  
+  .row {
+    display: table-row;
+  }
+  .pixel {
+    display: table-cell;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+  }
+  .color {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    display: table-cell;
+}
+#blackcolor {
+  background-color: black;
+}
+
+#greencolor {
+  background-color: green;
+}
+
+#bluecolor {
+  background-color: blue;
+}
+
+#yellowcolor {
+  background-color: yellow;
+}
+
+
+  
